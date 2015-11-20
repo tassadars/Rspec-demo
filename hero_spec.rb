@@ -6,6 +6,13 @@
 require './hero'
 
 describe Hero do 
+
+  # Same operations could be moved here. Don't recommend.
+  # @before do 
+  #   @hero = Hero.new 'mike'
+  # end
+
+
   it "has a capitalized name" do
     hero = Hero.new 'mike'
 
